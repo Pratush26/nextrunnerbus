@@ -1,0 +1,41 @@
+svg text{
+    font-size:5rem;
+  }
+  svg text.txt{
+    animation:anim 6s infinite alternate ;
+  }
+  @keyframes anim{
+    0%{
+      fill:transparent;
+      stroke:white;
+      stroke-width:4;
+      stroke-dashoffset:25%;
+      stroke-dasharray:0 32%;
+    }
+    40%{
+      fill:transparent;
+      stroke:white;
+      stroke-width:4;
+    }
+    70%,100%{
+      stroke:lavender;
+      fill:transparent;
+      stroke-width:2;
+      stroke-dashoffset:-25%;
+      stroke-dasharray:32% 0;
+    }
+    80%{
+      fill:transparent;
+      stroke:transparent;
+      stroke-width:4;
+      stroke-dashoffset:-25%;
+      stroke-dasharray:32% 0;
+    }
+    100%{
+      fill:lavender;
+      stroke:transparent;
+      stroke-width:4;
+      stroke-dashoffset:-25%;
+      stroke-dasharray:32% 0;
+    }
+  }
